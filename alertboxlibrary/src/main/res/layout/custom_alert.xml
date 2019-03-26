@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingTop="3dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/custom_alert"
+    android:background="@drawable/round_dailog"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="TITLE"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_gravity="center"
+
+        android:textSize="16sp"
+        android:text="Network Error"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/message"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/okbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:visibility="gone"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0B2EE6"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:text="OK"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/button_Linear_layout"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+</LinearLayout>
+</LinearLayout>
